@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
         ClampingScrollWrapper.builder(context, widget),
         defaultScale: true,
         minWidth: 450,
+        defaultName: MOBILE,
         breakpoints: [
           ResponsiveBreakpoint.resize(450, name: MOBILE), /*De 450 pra baixo da um resize pra deixar melhor na tela dos celulares menores*/
           ResponsiveBreakpoint.resize(700, name: TABLET), /*De 450 pra baixo da um resize pra deixar melhor na tela dos celulares menores*/
