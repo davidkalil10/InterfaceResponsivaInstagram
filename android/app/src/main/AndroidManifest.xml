@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.xxfalcoonxx.responsive_instagram">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:label="responsive_instagram"
         android:icon="@mipmap/ic_launcher">
